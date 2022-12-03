@@ -56,7 +56,7 @@ def char_to_int(c):
 
 if __name__ == "__main__":
     input_array = []
-    with open('./src/day-2/puzzle_input.txt') as f:
+    with open('./src/day2/puzzle_input.txt') as f:
         for line in f:
             first, second = line[:-1].split(" ")
             input_array.append((first, second))

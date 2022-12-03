@@ -44,7 +44,7 @@ def is_num(num) -> bool:
 
 if __name__ == "__main__":
     input_array = []
-    with open('./day-1/puzzle_input.txt') as f:
+    with open('./src/day1/puzzle_input.txt') as f:
         for line in f:
             input_array.append(line)
 

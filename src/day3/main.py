@@ -44,11 +44,6 @@ def task_2(arr: list) -> int:
     return result
 
 
-
-        
-
-
-
 def num_value(c: str) -> int:
     result = 0
 
@@ -65,7 +60,7 @@ def num_value(c: str) -> int:
 
 if __name__ == "__main__":
     input_array = []
-    with open('./src/day-3/puzzle_input.txt') as f:
+    with open('./src/day3/puzzle_input.txt') as f:
         for line in f:
             input_array.append(line[:-1])
 
