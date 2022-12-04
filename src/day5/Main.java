@@ -1,4 +1,4 @@
-package day4;
+package day5;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) throws Exception{
-        File file = new File("/Users/williamfrisk/Documents/GitHub/AoC-2022/src/day4/puzzle_input.txt");
+        File file = new File("/Users/williamfrisk/Documents/GitHub/AoC-2022/src/day5/puzzle_input.txt");
         Scanner sc = new Scanner(file);
 
         List<String> inputList = new ArrayList<>();
