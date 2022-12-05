@@ -49,7 +49,6 @@ class Stack<T>{
             result.add(pop());
         }
 
-        
         return result;
     }
 
@@ -61,7 +60,7 @@ class Stack<T>{
 
     public void add(List<T> arr) {
         Collections.reverse(arr);
-        
+
         for (T elem : arr) {
             add(elem);
         }

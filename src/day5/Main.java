@@ -7,17 +7,8 @@ import java.util.Scanner;
 
 class Main {
 
-    private Stack<String> stack1;
-    private Stack<String> stack2;
-    private Stack<String> stack3;
-    private Stack<String> stack4;
-    private Stack<String> stack5;
-    private Stack<String> stack6;
-    private Stack<String> stack7;
-    private Stack<String> stack8;
-    private Stack<String> stack9;
-
     private List<Stack<String>> stacks;
+
     public static void main(String[] args) throws Exception{
         File file = new File("/Users/williamfrisk/Documents/GitHub/AoC-2022/src/day5/puzzle_input.txt");
         Scanner sc = new Scanner(file);
@@ -54,56 +45,44 @@ class Main {
         stacks = new ArrayList<>();
 
         String[] arr = {"Z", "N"};
-        stack1 = new Stack<>(arr);
-        stacks.add(stack1);
+        stacks.add(new Stack<>(arr));
         
         arr = new String[] {"M", "C", "D"};
-        stack2 = new Stack<>(arr);
-        stacks.add(stack2);
+        stacks.add(new Stack<>(arr));
         
         arr = new String[] {"P"};
-        stack3 = new Stack<>(arr);
-        stacks.add(stack3);
+        stacks.add(new Stack<>(arr));
     }
 
     private void setUpStacks() {
         stacks = new ArrayList<>();
 
         String[] arr = {"H", "C", "R"};
-        stack1 = new Stack<>(arr);
-        stacks.add(stack1);
+        stacks.add(new Stack<>(arr));
         
         arr = new String[] {"B", "J", "H", "L", "S", "F"};
-        stack2 = new Stack<>(arr);
-        stacks.add(stack2);
+        stacks.add(new Stack<>(arr));
         
         arr = new String[] {"R", "M", "D", "H", "J", "T", "Q"};
-        stack3 = new Stack<>(arr);
-        stacks.add(stack3);
+        stacks.add(new Stack<>(arr));
         
         arr = new String[] {"S", "G", "R", "H", "Z", "B", "J"};
-        stack4 = new Stack<>(arr);
-        stacks.add(stack4);
+        stacks.add(new Stack<>(arr));
 
         arr = new String[] {"R", "P", "F", "Z", "T", "D", "C", "B"};
-        stack5 = new Stack<>(arr);
-        stacks.add(stack5);
+        stacks.add(new Stack<>(arr));
 
         arr = new String[] {"T", "H", "C", "G"};
-        stack6 = new Stack<>(arr);
-        stacks.add(stack6);
+        stacks.add(new Stack<>(arr));
 
         arr = new String[] {"S", "N", "V", "Z", "B", "P", "W", "L"};
-        stack7 = new Stack<>(arr);
-        stacks.add(stack7);
+        stacks.add(new Stack<>(arr));
 
         arr = new String[] {"R", "J", "Q", "G", "C"};
-        stack8 = new Stack<>(arr);
-        stacks.add(stack8);
+        stacks.add(new Stack<>(arr));
 
         arr = new String[] {"L", "D", "T", "R", "H", "P", "F", "S"};
-        stack9 = new Stack<>(arr);
-        stacks.add(stack9);
+        stacks.add(new Stack<>(arr));
 
     }
 
