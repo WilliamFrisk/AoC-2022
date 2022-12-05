@@ -34,24 +34,15 @@ class Main {
 
         Main instance = new Main();
 
+        System.out.println(instance.task1(inputList));
+
+        instance = new Main();
+
         System.out.println(instance.task2(inputList));
     }
 
     private Main() {
         setUpStacks();
-    }
-
-    private void setUpTestStacks() {
-        stacks = new ArrayList<>();
-
-        String[] arr = {"Z", "N"};
-        stacks.add(new Stack<>(arr));
-        
-        arr = new String[] {"M", "C", "D"};
-        stacks.add(new Stack<>(arr));
-        
-        arr = new String[] {"P"};
-        stacks.add(new Stack<>(arr));
     }
 
     private void setUpStacks() {
